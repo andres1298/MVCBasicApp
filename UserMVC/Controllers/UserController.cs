@@ -11,7 +11,7 @@ namespace UserMVC.Controllers
 {
     public class UserController : Controller
     {
-        string connectionString = @"Data Source=localhost;Initial Catalog=MVC;Integrated Security=True";
+        string connectionString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=MVC;Integrated Security=True;MultipleActiveResultSets=True";
         // GET: User
         public ActionResult Index()
         {
